@@ -62,7 +62,7 @@ const ProfileSection = () => {
                     <p>
                         I am a Computer Science graduate from the University of Victoria, <br />
                         who is passionate about building things and bringing cool ideas/projects to reality. <br />
-                        Software development is the one of the best things I came across in life.
+                        Software development is one of the best things I came across in life.
                         <br /> <br />
 
                         I am currently based in Vancouver BC. <br /><br />
