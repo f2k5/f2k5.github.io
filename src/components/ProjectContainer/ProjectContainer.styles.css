@@ -3,6 +3,7 @@
     border-radius: 0.5rem;
     border: 1px solid #CFD8DC;
     background-color: #263238;
+    background-color: #212121;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h1 {
 }
 
 .project-description {
-    color: #81C784;
+    color: #C8E6C9;
     margin: 0.5rem 0.5rem 0 0.5rem;
     text-align: left;
 }

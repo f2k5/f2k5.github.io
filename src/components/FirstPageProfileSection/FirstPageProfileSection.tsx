@@ -58,7 +58,7 @@ const ProfileSection = () => {
             <section  className = "profile-section">
                 <div>
                     <h1 className = "name-header-page-one">Hello <br />I'm Fardin!</h1>
-                    <h2>I write stuff to make computers do what I want.</h2> <br />
+                    <h2>I write stuff to make computers do things.</h2> <br />
                     <p>
                         I am a Computer Science graduate from the University of Victoria, <br />
                         who is passionate about building things and bringing cool ideas/projects to reality. <br />
@@ -73,7 +73,7 @@ const ProfileSection = () => {
                         <br />
                         <br />
 
-                        Places where I exist on the internet: <br />
+                        Places where I exist on the internet and can be reached at: <br />
                         <div style = {{marginLeft: "-1rem"}}>
                             <IconButton onClick = {handleLinkedInButtonClick} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent"}}>
                                 <LinkedInIcon style={{ paddingLeft: 0}} fontSize = "large"/>
