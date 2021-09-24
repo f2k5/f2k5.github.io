@@ -40,7 +40,7 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/f2k5.github.io"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://f2k5.github.io/"}
-                        projectDescription = {"My personal portfolio, the site that you're in right now."}
+                        projectDescription = {"My personal portfolio, the site you're in right now."}
                         techStacks = {["TypeScript", "React", "Material-UI"]}
                     />
                     <br />
