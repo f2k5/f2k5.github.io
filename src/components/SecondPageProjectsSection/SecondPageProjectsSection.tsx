@@ -30,7 +30,7 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/card-trick"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://f2k5.github.io/card-trick"}
-                        projectDescription = {"A web app that figures out what card you are thinking of."}
+                        projectDescription = {"A web app that figures out what card you are thinking of. Fun fact: I was taught this trick when I was 12 by an uncle."}
                         techStacks = {["TypeScript", "React", "React Router", "Material-UI"]}
                     />
                     <br />
@@ -61,7 +61,7 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/Pomodoro"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://f2k5.github.io/Pomodoro/"}
-                        projectDescription = {"The Pomodoro Technique is a time management method. It uses a timer to break work into intervals 25 minute chunks."}
+                        projectDescription = {"The Pomodoro Technique is a time management method. It uses a timer to break work into 25 minute chunks."}
                         techStacks = {["JavaScript", "React"]}
                     />
                     <br />
