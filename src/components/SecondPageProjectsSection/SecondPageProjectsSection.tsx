@@ -27,9 +27,9 @@ const ProjectSection = () => {
                     <ProjectContainer 
                         projectName = {"Card Trick"}
                         githubRepoLogo = {true}
-                        githubRepoURL = {"https://github.com/f2k5/card-trick"}
+                        githubRepoURL = {"https://github.com/f2k5/f2k5.github.io"}
                         hostedLinkLogo = {true}
-                        hostedLinkURL = {"https://f2k5.github.io/card-trick"}
+                        hostedLinkURL = {"https://f2k5.github.io/"}
                         projectDescription = {"A web app that figures out what card you are thinking of."}
                         techStacks = {["TypeScript", "React", "React Router", "Material-UI"]}
                     />
