@@ -75,23 +75,23 @@ const ProfileSection = () => {
 
                         Places where I exist on the internet: <br />
                         <div style = {{marginLeft: "-1rem"}}>
-                            <IconButton onClick = {handleLinkedInButtonClick} className = {classes.root} style={{ color: 'black'}}>
+                            <IconButton onClick = {handleLinkedInButtonClick} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent"}}>
                                 <LinkedInIcon style={{ paddingLeft: 0}} fontSize = "large"/>
                             </IconButton>
 
-                            <IconButton onClick = {handleGitHubButtonClick} className = {classes.root} style={{ color: 'black' }}>
+                            <IconButton onClick = {handleGitHubButtonClick} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent"}}>
                                 <GitHubIcon fontSize = "large"/>
                             </IconButton>
 
-                            <IconButton  onClick = {handlePdf} className = {classes.root} style={{ color: 'black' }}>
+                            <IconButton  onClick = {handlePdf} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
                                 <DescriptionIcon fontSize = "large"/> 
                             </IconButton>
 
-                            <IconButton onClick = {handleInstagramButtonClick} className = {classes.root} style={{ color: 'black' }}>
+                            <IconButton onClick = {handleInstagramButtonClick} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
                                 <InstagramIcon fontSize = "large"/>
                             </IconButton>
 
-                            <IconButton {...buttonAHoverProps} onClick = {copyEmailToClipboard} className = {classes.root} style={{ color: 'black' }}>
+                            <IconButton {...buttonAHoverProps} onClick = {copyEmailToClipboard} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
                                 <EmailIcon fontSize = "large"/> <br />{buttonAIsHovering ? <p className = "hover-text">Copy email to clipboard</p> : null}
                             </IconButton> <br />
                         </div>

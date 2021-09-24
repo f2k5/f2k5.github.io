@@ -35,6 +35,16 @@ const ProjectSection = () => {
                     />
                     <br />
                     <ProjectContainer 
+                        projectName = {"Porfolio"}
+                        githubRepoLogo = {true}
+                        githubRepoURL = {"https://github.com/f2k5/card-trick"}
+                        hostedLinkLogo = {true}
+                        hostedLinkURL = {"https://f2k5.github.io/card-trick"}
+                        projectDescription = {"My personal portfolio, the site that you're in right now."}
+                        techStacks = {["TypeScript", "React", "Material-UI"]}
+                    />
+                    <br />
+                    <ProjectContainer 
                         projectName = {"COVID-19 Tracker"}
                         githubRepoLogo = {true}
                         githubRepoURL = {"https://github.com/f2k5/COVID-19-Tracker"}
@@ -68,7 +78,7 @@ const ProjectSection = () => {
                     <ProjectContainer 
                         projectName = {"Text formatter"}
                         githubRepoLogo = {true}
-                        githubRepoURL = {"https://github.com/f2k5/card-trick"}
+                        githubRepoURL = {"https://github.com/f2k5/Software-Development-SENG-265"}
                         projectDescription = {
                             "Developed a text formatter in C and an advanced text formatter in Python. Wrote a Python script to automate testing for the advanced text formatter, reducing testing time significantly."}
                         techStacks = {["C", "Python"]}
@@ -77,7 +87,7 @@ const ProjectSection = () => {
                     <ProjectContainer 
                         projectName = {"MacOS Desktop Cleaner"}
                         githubRepoLogo = {true}
-                        githubRepoURL = {"https://github.com/f2k5/card-trick"}
+                        githubRepoURL = {"https://github.com/f2k5/MacOS-Desktop-Cleaner"}
                         projectDescription = {"A script that macOS users can run on their desktop to declutter and organize piled up images, screenshots and pdfs."}
                         techStacks = {["Bash"]}
                     />
@@ -85,7 +95,7 @@ const ProjectSection = () => {
                     <ProjectContainer 
                         projectName = {"Password Generator (iOS)"}
                         githubRepoLogo = {true}
-                        githubRepoURL = {"https://github.com/f2k5/card-trick"}
+                        githubRepoURL = {"https://github.com/f2k5/Password-Generator"}
                         projectDescription = {"An iOS app that generates strong passwords for users."}
                         techStacks = {["Swift"]}
                     />
