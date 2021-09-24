@@ -27,9 +27,9 @@ const ProjectSection = () => {
                     <ProjectContainer 
                         projectName = {"Card Trick"}
                         githubRepoLogo = {true}
-                        githubRepoURL = {"https://github.com/f2k5/f2k5.github.io"}
+                        githubRepoURL = {"https://github.com/f2k5/card-trick"}
                         hostedLinkLogo = {true}
-                        hostedLinkURL = {"https://f2k5.github.io/"}
+                        hostedLinkURL = {"https://f2k5.github.io/card-trick"}
                         projectDescription = {"A web app that figures out what card you are thinking of."}
                         techStacks = {["TypeScript", "React", "React Router", "Material-UI"]}
                     />
@@ -37,9 +37,9 @@ const ProjectSection = () => {
                     <ProjectContainer 
                         projectName = {"Porfolio"}
                         githubRepoLogo = {true}
-                        githubRepoURL = {"https://github.com/f2k5/card-trick"}
+                        githubRepoURL = {"https://github.com/f2k5/f2k5.github.io"}
                         hostedLinkLogo = {true}
-                        hostedLinkURL = {"https://f2k5.github.io/card-trick"}
+                        hostedLinkURL = {"https://f2k5.github.io/"}
                         projectDescription = {"My personal portfolio, the site that you're in right now."}
                         techStacks = {["TypeScript", "React", "Material-UI"]}
                     />
