@@ -1,0 +1,48 @@
+.projectContainerBox {
+    width: 40rem;
+    border-radius: 0.5rem;
+    border: 1px solid #CFD8DC;
+    background-color: #263238;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.project-name-and-github-live-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.github-and-live {
+    display: flex;
+    justify-content: space-between;
+}
+
+.live-button {
+    margin: 0 0 0 2rem;
+}
+
+.project-description {
+    color: #81C784;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    text-align: left;
+}
+
+.tech-stack-list {
+    display: flex;
+    justify-content: left;
+    margin: 0.5rem;
+}
+
+.tech-stack {
+    background-color: #FDDE59;
+    border: 1px solid #FDDE59;
+    border-radius: 0.3rem;
+    color: black;
+    display: inline-block;
+    margin-right: 0.5rem;
+}

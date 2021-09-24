@@ -1,0 +1,37 @@
+.profile-page {
+    background-color: #FDDE59;
+    background-color: #81C784;
+    height: 100vh;
+    display: flex;
+    padding: 0 0 0 20%;
+    align-items: center;
+    text-align: left;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name-header-page-one {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-left: -0.4rem;
+    padding: 0;
+    text-align: left;
+    color: black;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+h1, h2, p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hover-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+}
