@@ -7,11 +7,27 @@
     padding: 0 0 0 20%;
     align-items: center;
     text-align: left;
+    animation-name: page-load;
+    animation-duration: 800ms;
 }
 
 .profile-section {
     display: flex;
     justify-content: space-evenly;
+}
+
+@keyframes page-load {
+    0%  {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
 }
 
 .name-header-page-one {
@@ -26,6 +42,7 @@
 h2 {
     font-size: 1.5rem;
     font-weight: 300;
+    animation-delay: 2s;
 }
 
 h1, h2, p {
