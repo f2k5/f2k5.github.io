@@ -40,6 +40,7 @@ const ProfileSection = () => {
 
     const copyEmailToClipboard = () => {
         navigator.clipboard.writeText("fardin.khan.cs@gmail.com");
+        updateEmailIconHoverMessage("Copied email to clipboard!");
     }
 
     const useHover = () => {
@@ -51,6 +52,7 @@ const ProfileSection = () => {
         return [hovering, onHoverProps]
     }
 
+    const [emailIconHoverMessage, updateEmailIconHoverMessage] = useState("Copy email to clipboard");
     const [buttonAIsHovering, buttonAHoverProps] = useHover();
 
     return (
@@ -91,8 +93,8 @@ const ProfileSection = () => {
                                 <InstagramIcon fontSize = "large"/>
                             </IconButton>
 
-                            <IconButton {...buttonAHoverProps} onClick = {copyEmailToClipboard} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
-                                <EmailIcon fontSize = "large"/> <br />{buttonAIsHovering ? <p className = "hover-text">Copy email to clipboard</p> : null}
+                            <IconButton {...buttonAHoverProps} disableRipple = {true} onClick = {copyEmailToClipboard} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
+                                <EmailIcon fontSize = "large"/> <br />{buttonAIsHovering ? <p className = "hover-text">{emailIconHoverMessage}</p> : null}
                             </IconButton> <br />
                         </div>
                     </p>
