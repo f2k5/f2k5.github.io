@@ -19,19 +19,26 @@ const useStyles = makeStyles({
     }
 })
 
+const emailAndSocialURLs = {
+    Email: "fardin.khan.cs@gmail.com",
+    GitHub: "https://github.com/f2k5",
+    LinkedIn: "https://www.linkedin.com/in/csfardinkhan/",
+    Instagram: "https://www.instagram.com/f25k10/",
+}
+
 const ProfileSection = () => {
     const classes = useStyles();
 
     const handleGitHubButtonClick = () => {
-        window.open("https://github.com/f2k5", "_blank");
+        window.open(emailAndSocialURLs.GitHub, "_blank");
     }
 
     const handleLinkedInButtonClick = () => {
-        window.open("https://www.linkedin.com/in/csfardinkhan/", "_blank");
+        window.open(emailAndSocialURLs.LinkedIn, "_blank");
     }
 
     const handleInstagramButtonClick = () => {
-        window.open("https://www.instagram.com/f25k10/", "_blank");
+        window.open(emailAndSocialURLs.Instagram, "_blank");
     }
 
     const handlePdf = () => {
@@ -39,7 +46,7 @@ const ProfileSection = () => {
     }
 
     const copyEmailToClipboard = () => {
-        navigator.clipboard.writeText("fardin.khan.cs@gmail.com");
+        navigator.clipboard.writeText(emailAndSocialURLs.Email);
         updateEmailIconHoverMessage("Copied email to clipboard!");
     }
 
@@ -94,8 +101,8 @@ const ProfileSection = () => {
                             </IconButton>
 
                             <IconButton {...buttonAHoverProps} disableRipple = {true} onClick = {copyEmailToClipboard} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
-                                <EmailIcon fontSize = "large"/> <br />{buttonAIsHovering ? <p className = "hover-text">{emailIconHoverMessage}</p> : null}
-                            </IconButton> <br />
+                                <EmailIcon fontSize = "large"/> {buttonAIsHovering ? <p className = "hover-text">{emailIconHoverMessage}</p> : null}
+                            </IconButton> 
                         </div>
                     </p>
                 </div>

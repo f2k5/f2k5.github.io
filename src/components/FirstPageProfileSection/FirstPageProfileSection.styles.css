@@ -10,8 +10,8 @@
 }
 
 .profile-section {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .name-header-page-one {
