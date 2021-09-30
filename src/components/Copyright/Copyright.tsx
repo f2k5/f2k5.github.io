@@ -10,7 +10,7 @@ const Copyright = () => {
     var year = new Date().getFullYear();
     return (
         <CopyrightStyle>
-            <Typography style={{color:"white"}} variant = "subtitle2">made by Fardin Khan, ©️ {year}</Typography>
+            <Typography style={{color:"whitesmoke"}} variant = "subtitle2">made by Fardin Khan, ©️ {year}</Typography>
         </CopyrightStyle>
     )
 }

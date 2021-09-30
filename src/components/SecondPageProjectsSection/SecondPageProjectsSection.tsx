@@ -23,7 +23,7 @@ const ProjectSection = () => {
         <ProjectPageContainer>
             <Box>
                 <section id = "srollDownToProjectPage">
-                    <h1 style = {{margin: "1rem 0 0 0"}}>Projects:</h1> <br />
+                    <h1 style = {{margin: "1rem 0 0 0", color: "whitesmoke"}}>Projects:</h1> <br />
                     <ProjectContainer 
                         projectName = {"Card Trick"}
                         githubRepoLogo = {true}
@@ -102,7 +102,7 @@ const ProjectSection = () => {
                     <Copyright />
                 </section>
                 <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
-                    <Button variant="outlined" style={{ backgroundColor: 'whitesmoke' , marginLeft: "6rem", color: "black", borderColor: "whitesmoke"}} ><KeyboardArrowUpIcon /> Go back up</Button>
+                    <Button variant="outlined" style={{ backgroundColor: "#222639" , marginLeft: "6rem", color: "whitesmoke", borderColor: "whitesmoke"}} ><KeyboardArrowUpIcon /> Go back up</Button>
                 </Link>
             </Box>
         </ProjectPageContainer>

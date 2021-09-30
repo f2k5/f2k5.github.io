@@ -9,7 +9,7 @@
     align-items: center;
     text-align: left;
     animation-name: page-load;
-    animation-duration: 800ms;
+    animation-duration: 500ms;
 }
 
 .profile-section {
@@ -18,7 +18,7 @@
 }
 
 @keyframes page-load {
-    0%  {opacity: 0;}
+    0%  {opacity: 0.1;}
     10% {opacity: 0.1;}
     20% {opacity: 0.2;}
     30% {opacity: 0.3;}
