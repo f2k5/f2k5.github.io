@@ -11,6 +11,7 @@ import { makeStyles } from "@mui/styles";
 import { Button } from "@mui/material";
 import { Link } from "react-scroll";
 import ComputerIcon from '@mui/icons-material/Computer';
+import fardinKhanMemoji from "../../assets/fardinKhanMemoji.png";
 
 const useStyles = makeStyles({
     root: {
@@ -67,7 +68,8 @@ const ProfileSection = () => {
         <div id = "srollUpToProfilePage" className = "profile-page">
             <section  className = "profile-section">
                 <div>
-                    <h1 className = "name-header-page-one">Hello,<br />I'm Fardin!</h1>
+                    <img src = {fardinKhanMemoji} alt = "memoji"/>
+                    <h1 className = "name-header-page-one">Hello, <br />I'm Fardin!</h1>
                     <h2>I write stuff to make computers do things.</h2> <br />
                     <p>
                         I am a Computer Science graduate from the University of Victoria, <br />
@@ -78,7 +80,7 @@ const ProfileSection = () => {
                         I am currently based in Vancouver, BC. <br /><br />
 
                         <Link to = "srollDownToProjectPage" smooth = {true} duration = {750}>
-                            <Button variant = "contained" style={{ backgroundColor: 'black', color: "whitesmoke", borderColor: "whitesmoke" }}> Click here to see my projects &nbsp;<ComputerIcon /></Button>
+                            <Button variant = "contained" style={{ backgroundColor: 'whitesmoke', fontFamily: "Source Sans Pro", color: "#222639"}}> Click here to see my projects &nbsp;<ComputerIcon /></Button>
                         </Link> <br /><br />
 
                         Places where I exist on the internet and can be reached at: <br />

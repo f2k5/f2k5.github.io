@@ -32,7 +32,7 @@
 }
 
 .name-header-page-one {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 300;
     margin-left: -0.4rem;
     padding: 0;
@@ -53,4 +53,10 @@ h1, h2, p {
 .hover-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
+}
+
+img {
+    width: 20%;
+    margin: 0 0 -1rem 0;
+    margin: left;
 }
