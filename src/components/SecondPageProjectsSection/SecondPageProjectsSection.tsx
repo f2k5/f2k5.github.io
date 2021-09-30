@@ -102,7 +102,7 @@ const ProjectSection = () => {
                     <Copyright />
                 </section>
                 <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
-                    <Button variant="outlined" style={{ backgroundColor: '#C8E6C9' , marginLeft: "6rem", color: "black", borderColor: "#C8E6C9"}} ><KeyboardArrowUpIcon /> Go back up</Button>
+                    <Button variant="outlined" style={{ backgroundColor: 'whitesmoke' , marginLeft: "6rem", color: "black", borderColor: "whitesmoke"}} ><KeyboardArrowUpIcon /> Go back up</Button>
                 </Link>
             </Box>
         </ProjectPageContainer>

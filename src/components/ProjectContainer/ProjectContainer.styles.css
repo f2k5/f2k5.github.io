@@ -4,6 +4,7 @@
     border: 1px solid #CFD8DC;
     background-color: #263238;
     background-color: #212121;
+    background-color: #222639;
 }
 
 h1 {
@@ -28,7 +29,7 @@ h1 {
 }
 
 .project-description {
-    color: #C8E6C9;
+    color: whitesmoke;
     margin: 0.5rem 0.5rem 0 0.5rem;
     text-align: left;
 }
