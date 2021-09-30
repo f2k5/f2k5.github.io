@@ -69,7 +69,8 @@ const ProfileSection = () => {
             <section  className = "profile-section">
                 <div>
                     <img src = {fardinKhanMemoji} alt = "memoji"/>
-                    <h1 className = "name-header-page-one">Hello, <br />I'm Fardin!</h1>
+                    <h1 className = "name-header-page-one h1-first">Hello,</h1>
+                    <h1 className = "name-header-page-one">I'm Fardin!</h1>
                     <h2>I write stuff to make computers do things.</h2> <br />
                     <p>
                         I am a Computer Science graduate from the University of Victoria, <br />

@@ -43,6 +43,11 @@ h2 {
     font-size: 1.5rem;
     font-weight: 300;
     animation-delay: 2s;
+    line-height: 0.7em;
+}
+
+.h1-first {
+    line-height: 3.5rem;
 }
 
 h1, h2, p {
@@ -57,7 +62,7 @@ h1, h2, p {
 
 img {
     width: 20%;
-    margin: 0 0 -1rem 0;
+    /* margin: 0 0 0rem 0; */
     margin: left;
     /* -webkit-animation: mover 0.8s infinite  alternate;
     animation: mover 0.8s infinite  alternate; */
