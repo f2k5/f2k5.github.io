@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.928f5bcf.chunk.css",
+    "main.css": "/static/css/main.190fe68f.chunk.css",
     "main.js": "/static/js/main.97fb2ac1.chunk.js",
     "main.js.map": "/static/js/main.97fb2ac1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.036fb754.js",
@@ -8,7 +8,7 @@
     "static/js/2.75571444.chunk.js": "/static/js/2.75571444.chunk.js",
     "static/js/2.75571444.chunk.js.map": "/static/js/2.75571444.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.928f5bcf.chunk.css.map": "/static/css/main.928f5bcf.chunk.css.map",
+    "static/css/main.190fe68f.chunk.css.map": "/static/css/main.190fe68f.chunk.css.map",
     "static/js/2.75571444.chunk.js.LICENSE.txt": "/static/js/2.75571444.chunk.js.LICENSE.txt",
     "static/media/FardinKhanResume.7c351d43.pdf": "/static/media/FardinKhanResume.7c351d43.pdf",
     "static/media/fardinKhanMemoji.c2e73a3d.png": "/static/media/fardinKhanMemoji.c2e73a3d.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.036fb754.js",
     "static/js/2.75571444.chunk.js",
-    "static/css/main.928f5bcf.chunk.css",
+    "static/css/main.190fe68f.chunk.css",
     "static/js/main.97fb2ac1.chunk.js"
   ]
 }
