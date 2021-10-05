@@ -35,7 +35,7 @@ const ProjectSection = () => {
                     />
                     <br />
                     <ProjectContainer 
-                        projectName = {"Porfolio"}
+                        projectName = {"Portfolio"}
                         githubRepoLogo = {true}
                         githubRepoURL = {"https://github.com/f2k5/f2k5.github.io"}
                         hostedLinkLogo = {true}
