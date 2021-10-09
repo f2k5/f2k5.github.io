@@ -62,17 +62,5 @@ h1, h2, p {
 
 img {
     width: 20%;
-    /* margin: 0 0 0rem 0; */
     margin: left;
-    /* -webkit-animation: mover 0.8s infinite  alternate;
-    animation: mover 0.8s infinite  alternate; */
 }
-
-/* @-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
-} */
