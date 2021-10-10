@@ -12,6 +12,33 @@
     animation-duration: 500ms;
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    .profile-page {
+        width: 100%;
+        padding: 5%;
+    }
+    h2 {
+        line-height: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-page {
+        width: 100%;
+        padding: 0 1%;
+    }
+    h2 {
+        line-height: 1em;
+    }
+    .name-header-page-one {
+        font-size: 3rem;
+        /* font-weight: 300;
+        margin-left: -0.4rem;
+        padding: 0;
+        text-align: left; */
+    }
+}
+
 .profile-section {
     display: flex;
     justify-content: space-evenly;
@@ -43,7 +70,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: 300;
     animation-delay: 2s;
-    line-height: 0.7em;
+    /* line-height: 0.7em; */
 }
 
 .h1-first {

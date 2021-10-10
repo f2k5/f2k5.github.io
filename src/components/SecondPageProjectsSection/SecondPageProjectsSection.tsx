@@ -1,15 +1,18 @@
 import React from "react";
+import "./SecondPageProjectsSection.styles.css"
 import ProjectContainer from "../ProjectContainer/ProjectContainer";
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Copyright from "../Copyright/Copyright";
 import { Link } from "react-scroll";
 import { Button } from "@mui/material";
 import styled from "styled-components";
+import { useMediaQuery } from "react-responsive";
 
 const ProjectSection = () => {
 
     const ProjectPageContainer = styled.div`
         background-color: black;
+        width: 100%;
     `;
 
     const Box = styled.div`
@@ -17,11 +20,29 @@ const ProjectSection = () => {
         align-items: center;
         text-align: left;
         padding: 0 0 0 20%;
+
+        @media only screen and (max-width: 600px) {
+            width: 99%;
+            padding: 0;
+        }
+
+        @media only screen and (max-width: 1024px) and (min-width: 600px) {
+            width: 100%;
+            padding: 5%;
+        }
     `
+
+    const ifDeviceIsASmartphone = useMediaQuery({
+        query: "(max-width: 600px)"
+    })
+
+    const ifDeviceIsAnIpad = useMediaQuery({
+        query: "(max-width: 1024px)"
+    })
 
     return (
         <ProjectPageContainer>
-            <Box>
+            <Box className = "box">
                 <section id = "srollDownToProjectPage">
                     <h1 style = {{margin: "1rem 0 0 0", color: "whitesmoke"}}>Projects:</h1> <br />
                     <ProjectContainer 
@@ -101,9 +122,19 @@ const ProjectSection = () => {
                     />
                     <Copyright />
                 </section>
-                <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
-                    <Button variant="outlined" style={{ backgroundColor: "#222639" , marginLeft: "6rem", color: "whitesmoke", borderColor: "whitesmoke"}} ><KeyboardArrowUpIcon /> Go back up</Button>
-                </Link>
+                
+                {ifDeviceIsASmartphone ? null : 
+                 ifDeviceIsAnIpad ?
+                    <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
+                        <Button variant="outlined" style={{ backgroundColor: "#222639" , marginLeft: "2rem", color: "whitesmoke", borderColor: "whitesmoke", padding: "1rem 0"}}>
+                        <KeyboardArrowUpIcon /></Button>
+                    </Link> :
+                    <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
+                        <Button variant="outlined" style={{ backgroundColor: "#222639" , marginLeft: "6rem", color: "whitesmoke", borderColor: "whitesmoke", padding: "1rem 0"}}>
+                        <KeyboardArrowUpIcon /></Button>
+                    </Link>
+                }
+                
             </Box>
         </ProjectPageContainer>
     )
