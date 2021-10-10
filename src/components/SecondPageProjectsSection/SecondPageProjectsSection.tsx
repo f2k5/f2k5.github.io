@@ -6,7 +6,6 @@ import Copyright from "../Copyright/Copyright";
 import { Link } from "react-scroll";
 import { Button } from "@mui/material";
 import styled from "styled-components";
-import { useMediaQuery } from "react-responsive";
 
 const ProjectSection = () => {
 
@@ -32,13 +31,13 @@ const ProjectSection = () => {
         }
     `
 
-    const ifDeviceIsASmartphone = useMediaQuery({
-        query: "(max-width: 600px)"
-    })
+    // const ifDeviceIsASmartphone = useMediaQuery({
+    //     query: "(max-width: 600px)"
+    // })
 
-    const ifDeviceIsAnIpad = useMediaQuery({
-        query: "(max-width: 1024px)"
-    })
+    // const ifDeviceIsAnIpad = useMediaQuery({
+    //     query: "(max-width: 1024px)"
+    // })
 
     return (
         <ProjectPageContainer>
@@ -123,17 +122,12 @@ const ProjectSection = () => {
                     <Copyright />
                 </section>
                 
-                {ifDeviceIsASmartphone ? null : 
-                 ifDeviceIsAnIpad ?
-                    <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
-                        <Button variant="outlined" style={{ backgroundColor: "#222639" , marginLeft: "2rem", color: "whitesmoke", borderColor: "whitesmoke", padding: "1rem 0"}}>
-                        <KeyboardArrowUpIcon /></Button>
-                    </Link> :
+                
                     <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
                         <Button variant="outlined" style={{ backgroundColor: "#222639" , marginLeft: "6rem", color: "whitesmoke", borderColor: "whitesmoke", padding: "1rem 0"}}>
                         <KeyboardArrowUpIcon /></Button>
                     </Link>
-                }
+                
                 
             </Box>
         </ProjectPageContainer>

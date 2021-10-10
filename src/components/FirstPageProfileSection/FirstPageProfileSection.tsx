@@ -73,7 +73,7 @@ const ProfileSection = () => {
                     <h1 className = "name-header-page-one">I'm Fardin!</h1>
                     <h2>I write stuff to make computers do things.</h2> <br />
                     <p>
-                        I am a Computer Science graduate from the University of Victoria, <br />
+                        I'm a Computer Science graduate from the University of Victoria, <br />
                         who is passionate about building things and bringing cool ideas/projects to reality. <br />
                         Software development is one of the best things I came across in life.
                         <br /> <br />
