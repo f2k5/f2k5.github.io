@@ -81,7 +81,11 @@ const ProfileSection = () => {
                         I am currently based in Vancouver, BC. <br /><br />
 
                         <Link to = "srollDownToProjectPage" smooth = {true} duration = {750}>
-                            <Button variant = "contained" style={{ backgroundColor: 'whitesmoke', fontFamily: "Source Sans Pro", color: "#222639"}}> Click here to see my projects &nbsp;<ComputerIcon /></Button>
+                            <Button variant = "contained" 
+                                style={{ backgroundColor: 'whitesmoke', fontFamily: "Source Sans Pro", 
+                                        color: "#222639"}}> Click here to see my projects &nbsp;
+                                    <ComputerIcon />
+                            </Button>
                         </Link> <br /><br />
 
                         Places where I exist on the internet and can be reached at: <br />

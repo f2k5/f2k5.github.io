@@ -26,6 +26,9 @@ const ProjectSection = () => {
             .scroll-up-btn {
                 display: none;
             }
+            ::-webkit-scrollbar {
+                width: 0px;
+            }
         }
 
         @media only screen and (max-width: 1024px) and (min-width: 600px) {
