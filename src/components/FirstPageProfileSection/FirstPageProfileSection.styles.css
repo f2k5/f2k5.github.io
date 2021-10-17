@@ -32,13 +32,12 @@
     }
     .name-header-page-one {
         font-size: 3rem;
-        /* font-weight: 300;
-        margin-left: -0.4rem;
-        padding: 0;
-        text-align: left; */
     }
     ::-webkit-scrollbar {
         width: 0px;
+    }
+    .content-container {
+        width: 90%;
     }
 }
 

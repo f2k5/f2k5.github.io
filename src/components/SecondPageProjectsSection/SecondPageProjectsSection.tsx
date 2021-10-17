@@ -22,12 +22,16 @@ const ProjectSection = () => {
 
         @media only screen and (max-width: 600px) {
             width: 100%;
-            padding: 0;
+            padding: 0 0.5% 0 0.5%;
             .scroll-up-btn {
                 display: none;
             }
             ::-webkit-scrollbar {
                 width: 0px;
+            }
+            .box {
+                width: 90%;
+                padding: 0 0.5% 0 0.5%;
             }
         }
 

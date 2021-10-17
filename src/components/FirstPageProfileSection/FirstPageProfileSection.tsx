@@ -67,7 +67,7 @@ const ProfileSection = () => {
     return (
         <div id = "srollUpToProfilePage" className = "profile-page">
             <section  className = "profile-section">
-                <div>
+                <div className = "content-container">
                     <img src = {fardinKhanMemoji} alt = "memoji"/>
                     <h1 className = "name-header-page-one h1-first">Hello,</h1>
                     <h1 className = "name-header-page-one">I'm Fardin!</h1>
