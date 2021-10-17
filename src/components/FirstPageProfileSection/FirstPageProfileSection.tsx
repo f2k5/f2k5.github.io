@@ -90,24 +90,30 @@ const ProfileSection = () => {
 
                         Places where I exist on the internet and can be reached at: <br />
                         <div style = {{marginLeft: "-1rem"}}>
-                            <IconButton onClick = {handleLinkedInButtonClick} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent"}}>
+                            <IconButton onClick = {handleLinkedInButtonClick} className = {classes.root} 
+                                style={{ color: 'black', backgroundColor: "transparent"}}>
                                 <LinkedInIcon style={{ paddingLeft: 0, fill: "whitesmoke"}} fontSize = "large"/>
                             </IconButton>
 
-                            <IconButton onClick = {handleGitHubButtonClick} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent"}}>
+                            <IconButton onClick = {handleGitHubButtonClick} className = {classes.root} 
+                                style={{ color: 'black', backgroundColor: "transparent"}}>
                                 <GitHubIcon fontSize = "large" style={{fill: "whitesmoke"}}/>
                             </IconButton>
 
-                            <IconButton  onClick = {handlePdf} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
+                            <IconButton  onClick = {handlePdf} className = {classes.root} 
+                                style={{ color: 'black', backgroundColor: "transparent" }}>
                                 <DescriptionIcon fontSize = "large" style={{fill: "whitesmoke"}}/> 
                             </IconButton>
 
-                            <IconButton onClick = {handleInstagramButtonClick} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
+                            <IconButton onClick = {handleInstagramButtonClick} className = {classes.root} 
+                                style={{ color: 'black', backgroundColor: "transparent" }}>
                                 <InstagramIcon fontSize = "large" style={{fill: "whitesmoke"}}/>
                             </IconButton>
 
-                            <IconButton {...buttonAHoverProps} disableRipple = {true} onClick = {copyEmailToClipboard} className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
-                                <EmailIcon fontSize = "large" style={{fill: "whitesmoke"}}/> {buttonAIsHovering ? <p className = "hover-text">{emailIconHoverMessage}</p> : null}
+                            <IconButton {...buttonAHoverProps} disableRipple = {true} onClick = {copyEmailToClipboard} 
+                                className = {classes.root} style={{ color: 'black', backgroundColor: "transparent" }}>
+                                <EmailIcon fontSize = "large" style={{fill: "whitesmoke"}}/> 
+                                {buttonAIsHovering ? <p className = "hover-text">{emailIconHoverMessage}</p> : null}
                             </IconButton> 
                         </div>
                     </p>

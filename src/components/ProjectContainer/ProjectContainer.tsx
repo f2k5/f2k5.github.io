@@ -37,12 +37,18 @@ const ProjectContainer: React.FC<ProjectComposition> = ({
                     <h1 style = {{ color: "#CFD8DC" }}>{projectName}</h1>
                     <div className = "github-and-live">
                         {githubRepoLogo ? 
-                            <Button onClick = {handleGitHubButtonClick} style = {{ backgroundColor: '#CFD8DC', color: "black" }} variant = "contained" endIcon = {<GitHubIcon />}>GitHub</Button>
+                            <Button onClick = {handleGitHubButtonClick} 
+                            style = {{ backgroundColor: '#CFD8DC', color: "black" }} 
+                            variant = "contained" 
+                            endIcon = {<GitHubIcon />}>GitHub</Button>
                             : 
                             null
                         }
                         {hostedLinkLogo ?
-                            <Button onClick = {handleLiveAppButtonClick} style = {{ backgroundColor: '#CFD8DC', color: "black", margin: "0 0 0 0.5rem" }} variant = "contained" endIcon = {<ComputerIcon />}>Live</Button>
+                            <Button onClick = {handleLiveAppButtonClick} 
+                            style = {{ backgroundColor: '#CFD8DC', color: "black", margin: "0 0 0 0.5rem" }} 
+                            variant = "contained" 
+                            endIcon = {<ComputerIcon />}>Live</Button>
                             :
                             null
                         }
@@ -64,7 +70,8 @@ const ProjectContainer: React.FC<ProjectComposition> = ({
                         techStack === "Swift" ? color = "#F05138" :
                         techStack === "JavaScript" ? color = "#F5DE19" : color = "#81C784";
                         return (
-                        <p style = {{backgroundColor: color, borderColor: color}} className = "tech-stack">&nbsp;{techStack}&nbsp;</p>)
+                        <p style = {{backgroundColor: color, borderColor: color}} 
+                        className = "tech-stack">&nbsp;{techStack}&nbsp;</p>)
                     })}
                 </div>
             </div>
