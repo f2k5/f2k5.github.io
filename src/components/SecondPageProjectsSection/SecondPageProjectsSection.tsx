@@ -21,8 +21,11 @@ const ProjectSection = () => {
         padding: 0 0 0 20%;
 
         @media only screen and (max-width: 600px) {
-            width: 99%;
+            width: 100%;
             padding: 0;
+            .scroll-up-btn {
+                display: none;
+            }
         }
 
         @media only screen and (max-width: 1024px) and (min-width: 600px) {
@@ -30,14 +33,6 @@ const ProjectSection = () => {
             padding: 5%;
         }
     `
-
-    // const ifDeviceIsASmartphone = useMediaQuery({
-    //     query: "(max-width: 600px)"
-    // })
-
-    // const ifDeviceIsAnIpad = useMediaQuery({
-    //     query: "(max-width: 1024px)"
-    // })
 
     return (
         <ProjectPageContainer>
@@ -50,7 +45,8 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/card-trick"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://f2k5.github.io/card-trick"}
-                        projectDescription = {"A web app that figures out what card you are thinking of. Fun fact: I was taught this trick when I was 12 by an uncle."}
+                        projectDescription = {`A web app that figures out what card you are thinking of. 
+                        "Fun fact: I was taught this trick when I was 12 by an uncle.`}
                         techStacks = {["TypeScript", "React", "React Router", "Material-UI"]}
                     />
                     <br />
@@ -70,8 +66,8 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/COVID-19-Tracker"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://f2k5.github.io/COVID-19-Tracker/"}
-                        projectDescription = {
-                            "This web app fetches data from an API and shows the latest number of COVID-19 cases worldwide & allows users to search for COVID-19 data of any country."}
+                        projectDescription = {`This web app fetches data from an API and shows the latest number of 
+                        COVID-19 cases worldwide & allows users to search for COVID-19 data of any country.`}
                         techStacks = {["JavaScript", "React"]}
                     />
                     <br />
@@ -81,7 +77,8 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/Pomodoro"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://f2k5.github.io/Pomodoro/"}
-                        projectDescription = {"The Pomodoro Technique is a time management method. It uses a timer to break work into 25 minute chunks."}
+                        projectDescription = {`The Pomodoro Technique is a time management method. 
+                        It uses a timer to break work into 25 minute chunks.`}
                         techStacks = {["JavaScript", "React"]}
                     />
                     <br />
@@ -91,7 +88,8 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/Number-Guessing-Game"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://elastic-goldwasser-7f8b16.netlify.app/"}
-                        projectDescription = {"The game asks users to guess a randomly generated number and assigns the user a score based on their number of attempts."}
+                        projectDescription = {`The game asks users to guess a randomly generated number 
+                        and assigns the user a score based on their number of attempts.`}
                         techStacks = {["JavaScript", "HTML", "CSS"]}
                     />
                     <br />
@@ -99,8 +97,9 @@ const ProjectSection = () => {
                         projectName = {"Text formatter"}
                         githubRepoLogo = {true}
                         githubRepoURL = {"https://github.com/f2k5/Software-Development-SENG-265"}
-                        projectDescription = {
-                            "Developed a text formatter in C and an advanced text formatter in Python. Wrote a Python script to automate testing for the advanced text formatter, reducing testing time significantly."}
+                        projectDescription = {`Developed a text formatter in C and an advanced text formatter in Python.
+                         Wrote a Python script to automate testing for the advanced text formatter, 
+                         reducing testing time significantly.`}
                         techStacks = {["C", "Python"]}
                     />
                     <br />
@@ -108,7 +107,8 @@ const ProjectSection = () => {
                         projectName = {"MacOS Desktop Cleaner"}
                         githubRepoLogo = {true}
                         githubRepoURL = {"https://github.com/f2k5/MacOS-Desktop-Cleaner"}
-                        projectDescription = {"A script that macOS users can run on their desktop to declutter and organize piled up images, screenshots and pdfs."}
+                        projectDescription = {`A script that macOS users can run on their desktop to declutter 
+                        and organize piled up images, screenshots and pdfs.`}
                         techStacks = {["Bash"]}
                     />
                     <br />
@@ -122,12 +122,13 @@ const ProjectSection = () => {
                     <Copyright />
                 </section>
                 
-                
-                    <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
-                        <Button variant="outlined" style={{ backgroundColor: "#222639" , marginLeft: "6rem", color: "whitesmoke", borderColor: "whitesmoke", padding: "1rem 0"}}>
-                        <KeyboardArrowUpIcon /></Button>
-                    </Link>
-                
+                <Link to = "srollUpToProfilePage" smooth = {true} duration = {750}>
+                    <Button variant="outlined" className = "scroll-up-btn"
+                        style={{ backgroundColor: "#222639" , marginLeft: "6rem", 
+                                color: "whitesmoke", borderColor: "whitesmoke", padding: "1rem 0"}}>
+                        <KeyboardArrowUpIcon />
+                    </Button>
+                </Link>
                 
             </Box>
         </ProjectPageContainer>
