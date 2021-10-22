@@ -52,8 +52,7 @@ const ProjectSection = () => {
                         githubRepoURL = {"https://github.com/f2k5/card-trick"}
                         hostedLinkLogo = {true}
                         hostedLinkURL = {"https://f2k5.github.io/card-trick"}
-                        projectDescription = {`A web app that figures out what card you are thinking of. 
-                        "Fun fact: I was taught this trick when I was 12 by an uncle.`}
+                        projectDescription = {`A web app that figures out what card you are thinking of. Fun fact: I was taught this trick when I was 12 by an uncle.`}
                         techStacks = {["TypeScript", "React", "React Router", "Material-UI"]}
                     />
                     <br />
