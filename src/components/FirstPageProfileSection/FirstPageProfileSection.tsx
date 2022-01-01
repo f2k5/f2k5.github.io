@@ -78,7 +78,7 @@ const ProfileSection = () => {
                         Software development is one of the best things I came across in life.
                         <br /> <br />
 
-                        I am currently based in Vancouver, BC. <br /><br />
+                        I am currently based in Victoria, BC. <br /><br />
 
                         <Link to = "srollDownToProjectPage" smooth = {true} duration = {750}>
                             <Button variant = "contained" 
